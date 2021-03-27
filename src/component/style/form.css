@@ -1,0 +1,96 @@
+.contact{
+    background-color: #f7fafc;
+    width: 85%;
+    margin: auto;
+    height: 80vh;
+}
+.form-group{
+    width: 60%;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.labels-name{
+    width: 80%;
+}
+.names{
+   display: flex;
+   justify-content: space-between;
+   width: 95%;
+}
+
+label{
+    font-size: 15px;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+input,
+textarea{
+    width: 90%;
+    padding: 8px;
+    outline: none;
+    border-radius: 3px;
+    /* background-color: #faf4f4; */
+    border: 1px solid rgb(211, 248, 255);
+    box-shadow: 1px 1px 2px #cccfff;
+    margin-top: 10px;
+}
+textarea,
+input:focus{
+    background-color: #fff;
+    border: 1px solid #bed3d6;
+}
+.input-section{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.footer h4{
+    color: #4c51bf;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+.btn button{
+    width: 85px;
+    background-color: #4c51bf;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.btn button:hover{
+    opacity: 0.9;
+}
+.grey{
+    font-size: 13px;
+    color: #333;
+}
+/* Profile */
+
+@media only screen and (max-width: 900px){
+    .contact{
+        width: 100%;
+    }
+    .form-group{
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 670px){
+    .names{
+        display: flex;
+        flex-direction: column;
+     }
+     /* .form-group{
+         width: 80%;
+         background-color: tomato;
+     } */
+     .names{
+         width: 100%;
+     }
+     .labels-name{
+         width: 100%;
+     }
+  }
